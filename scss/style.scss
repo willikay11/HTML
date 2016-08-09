@@ -1,0 +1,70 @@
+$font-stack:    Helvetica, sans-serif;
+$background-code-color: #b3e6ff;
+$bold-font: bold;
+$text-color: #0088cc;
+$left-margin: 10px;
+$h2 : #ff6666;
+$h3 : #db4dff ;
+$h4 : #33ff99 ;
+$h5 : #000099 ;
+$h6 : #b300b3 ;
+
+body {
+	font : $font-stack;
+}
+
+code {
+  background-color: $background-code-color;
+  color: $text-color;
+}
+
+h1 {
+	color: $text-color;
+	margin-left: $left-margin;
+}
+
+h2{
+	color: $h2;
+	margin-left: $left-margin;
+}
+
+h3{
+	color: $h3;
+	margin-left: $left-margin;
+}
+
+h4{
+	color: $h4;
+	margin-left: $left-margin;
+}
+
+h5{
+	color: $h5;
+	margin-left: $left-margin;
+}
+
+h6{
+	color: $h6;
+	margin-left: $left-margin;
+}
+
+
+div {
+	border-left: 6px solid $text-color;
+}
+
+p {
+	margin-left: $left-margin; 
+}
+
+canvas {
+	margin-left: $left-margin;
+}
+
+pre{
+	margin-left: $left-margin;
+}
+
+video {
+	margin-left: $left-margin;
+}
